@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Grandz</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- Form Block -->
+
+		<div class="form_wrapper">
+
+			<form class="form">
+
+				<div class="form_title">Fill the form</div>
+
+				<input type="text" name="name" class="input_field name_field" placeholder="Name" required>
+				<input type="email" name="email" class="input_field email_field" placeholder="Email" required>
+				<input type="tel" name="tel" class="input_field phone_field" pattern="[0-9]+" placeholder="Phone number" title="only numbers from 0-9" required>
+
+				<div class="radio_title">Mark something</div>
+
+				<div class="radio_wr">
+					<label class="container_checkbox">
+						smth 1
+						<input type="checkbox" class="check">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container_checkbox">
+						smth 2
+						<input type="checkbox" class="check">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container_checkbox">
+						smth 3
+						<input type="checkbox" class="check">
+						<span class="checkmark"></span>
+					</label>
+				</div>
+
+				<button type="submit" class="btn">Send</button>
+
+			</form>
+
+		</div>
+
+		<!-- API Block -->
+
+		<div class="cnt_wrap">
+
+			<div class="api_title">Api Items</div>
+
+			<div id="app"></div>
+
+		</div>
+
+	</div>
+
+	
+		
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>
